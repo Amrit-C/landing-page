@@ -9,8 +9,9 @@ body{
     flex-direction: column;
     background-color: #1F2937;
     color: white;
-    padding:24px 184px;
-    font-family:Arial, Helvetica, sans-serif
+    padding:24px 208px 0px 208px;
+    /* font-family:Arial, Helvetica, sans-serif */
+    flex: 1;
 
 }
 
@@ -46,7 +47,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 96px;
+    margin-bottom: 108px;
 }
 
 .lrg-image{
@@ -57,6 +58,7 @@ ul{
 
 .lrg-image img{
     width: 400px;
+    border-radius: 12px;
 }
 
 .left-content{
@@ -85,4 +87,128 @@ h1{
     padding: 8px;
     border-radius: 12px;
     width: 30%;
+}
+
+/* Section 2 */
+
+.image-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:16px 208px 0px 208px;
+    margin-bottom: 84px;
+    flex: 1;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.panel img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.panel-one, .panel-two, .panel-three, .panel-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.caption{
+    font-size: 16px;
+}
+/*Section 3 */
+
+.quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    padding: 84px 208px 84px 208px;
+    gap: 0;
+    margin-bottom: 64px;
+    flex: 1;
+}
+
+.citation{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.quote blockquote{
+    margin-bottom: 6px;
+    font-weight: 50;
+    font-size: 36px;
+    font-style: italic;
+
+}
+
+/* Section 4 */
+.ad{
+    display: flex;
+    padding:48px 208px 48px 208px;
+    margin-bottom: 72px;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    flex: 1;
+}
+
+.ad-box{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    flex: 1;
+    padding: 45px 92px;
+    border-radius: 12px;
+    gap: 8px;
+}
+
+.sign-up-two{
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-weight: bold;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 12px;
+    padding: 10px 32px;
+}
+
+.ad-text-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.ad-text-text{
+    font-size: 14px;
+}
+
+.footer{
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 24px 0 24px 0;
+    margin-bottom: 0;
 }
